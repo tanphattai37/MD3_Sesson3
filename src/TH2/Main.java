@@ -15,9 +15,9 @@ public class Main {
             if (students[i].equals(input_name)) {
                 System.out.println("Position of the students in the list " + input_name + " is: " + i);
                 isExist = true;
-                break;
-            }
+            break;
         }
+    }
         if (!isExist) {
             System.out.println("Not found" + input_name + " in the list.");
         }
